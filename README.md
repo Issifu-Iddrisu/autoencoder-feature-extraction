@@ -15,7 +15,7 @@ The terms in the cost function are defined as follows:
 ## Tasks
 
 ### a) Data Preprocessing
-The file `data` contains a collection of 16x16 RGB patches extracted from various natural images. The data preprocessing steps are as follows:
+The file `data.h5` contains a collection of 16x16 RGB patches extracted from various natural images. The data preprocessing steps are as follows:
 1. Convert the images to grayscale using the luminosity model:
    
    Y = 0.21R + 0.72G + 0.07B
