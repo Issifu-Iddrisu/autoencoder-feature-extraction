@@ -15,11 +15,11 @@ The terms in the cost function are defined as follows:
 ## Tasks
 
 ### a) Data Preprocessing
-The file `assign3_data1.mat` contains a collection of 16x16 RGB patches extracted from various natural images. The data preprocessing steps are as follows:
+The file `data` contains a collection of 16x16 RGB patches extracted from various natural images. The data preprocessing steps are as follows:
 1. Convert the images to grayscale using the luminosity model:
-   $$
+   
    Y = 0.21R + 0.72G + 0.07B
-   $$
+   
 2. Normalize the data by removing the mean pixel intensity of each image and dividing by its standard deviation.
 3. To visualize the data, randomly sample patches in RGB format and separately display the normalized versions of the same patches. Comment on your results.
 
